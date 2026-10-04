@@ -1,0 +1,6 @@
+# monitoring — Dewi Banjarnahor
+services:
+  app:
+    image: alpine:latest
+    command: ["echo", "ping from dewi-banjarnahor89"]
+    restart: unless-stopped
